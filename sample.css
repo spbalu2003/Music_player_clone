@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: Arial, sans-serif;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  background-color: #000;
+  flex-wrap: wrap;
+}
+
+.image-item {
+  text-align: center;
+  color: #fff;
+}
+
+.image-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
